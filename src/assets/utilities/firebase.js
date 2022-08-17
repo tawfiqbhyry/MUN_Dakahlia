@@ -3,7 +3,6 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const {
-  API_KEY,
   AUTH_DOMAIN,
   PROJECT_ID,
   STORAGE_BUCKET,
