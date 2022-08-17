@@ -1,7 +1,9 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
+import dotenv from "dotenv";
 
+dotenv.config();
 const firebaseConfig = {
   apiKey: `${process.env.API_KEY}`,
   authDomain: `${process.env.AUTH_DOMAIN}`,
@@ -11,7 +13,6 @@ const firebaseConfig = {
   appId: `${process.env.APP_ID}`,
   databaseURL: `${process.env.DATABASE_URL}`,
 };
-console.log(firebaseConfig);
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
 const secondaryApp = initializeApp(firebaseConfig, "secondary");
