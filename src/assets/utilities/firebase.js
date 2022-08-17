@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
-
+require('dotenv').config();
 const {
   AUTH_DOMAIN,
   PROJECT_ID,
