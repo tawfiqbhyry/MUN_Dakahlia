@@ -9,8 +9,9 @@ const firebaseConfig = {
   storageBucket: `${process.env.STORAGE_BUCKET}`,
   messagingSenderId: `${process.env.MESSAGING_SENDER_ID}`,
   appId: `${process.env.APP_ID}`,
-  databaseURL: `https://${process.env.DATABASE_URL}.firebaseio.com`,
+  databaseURL: `${process.env.DATABASE_URL}`,
 };
+console.log(firebaseConfig);
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
 const secondaryApp = initializeApp(firebaseConfig, "secondary");
