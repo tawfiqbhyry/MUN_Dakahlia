@@ -363,7 +363,6 @@ export default {
         .then((userCredential) => {
           const user = userCredential.user;
           showLogin.value = false;
-          console.log(user.uid);
         })
         .catch(() => {
           error.value = true;
