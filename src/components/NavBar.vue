@@ -360,7 +360,7 @@ export default {
 
     async function login() {
       signInWithEmailAndPassword(auth, email.value, password.value)
-        .then((userCredential) => {
+        .then(() => {
           showLogin.value = false;
         })
         .catch(() => {
