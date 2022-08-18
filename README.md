@@ -23,4 +23,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # MUN website Images
-<img src="https://i.im.ge/2022/08/18/OsCDux.blogMUN.jpg" width="400px" height="400px"/>
+<img src="https://i.im.ge/2022/08/18/OsCDux.blogMUN.jpg"/>
