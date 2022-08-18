@@ -29,3 +29,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <img src="https://i.im.ge/2022/08/18/OsCCLY.visionMUN.jpg"/>
 <h3>Dashboard</h3>
 <img src="https://i.im.ge/2022/08/18/OsCYqC.dashbaordMUN.jpg"/>
+
+<h2>technologies learned while building the project</h2>
+<ul><li>Sass</li> <li>tailwindcss</li><li>gsap</li><li>typedjs</li></ul>
