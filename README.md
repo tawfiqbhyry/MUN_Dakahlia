@@ -1,5 +1,5 @@
 # mun
-<h2>[Project live](https://stemdakahlia-mun.netlify.app/)</h2>
+<h2><a href=https://stemdakahlia-mun.netlify.app/">Website url</a></h2>
 ## Project setup
 ```
 npm install
