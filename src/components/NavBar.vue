@@ -361,7 +361,6 @@ export default {
     async function login() {
       signInWithEmailAndPassword(auth, email.value, password.value)
         .then((userCredential) => {
-          const user = userCredential.user;
           showLogin.value = false;
         })
         .catch(() => {
