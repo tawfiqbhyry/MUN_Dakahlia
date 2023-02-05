@@ -24,5 +24,5 @@ const db = getDatabase(firebaseApp);
 const secondDB = getDatabase(secondaryApp);
 const secondAuth = getAuth(secondaryApp);
 const analytics = getAnalytics(firebaseApp);
-const analytics = getAnalytics(secondaryApp);
+const analyticsss = getAnalytics(secondaryApp);
 export { auth, db, secondDB, secondAuth };
